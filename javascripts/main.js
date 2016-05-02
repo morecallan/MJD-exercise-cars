@@ -1,3 +1,5 @@
+"use strict";
+
 
 /*
   Create a function named Car with one property named `manufactured_date`
@@ -24,7 +26,7 @@ function Make() {
 Make.prototype = new Car();
 Make.prototype.setManufacturer = function(company) {
   this.manufacturer = company;
-}
+};
 
 /*
     Create a function named Model. 
@@ -40,7 +42,7 @@ function Model(modelName) {
 Model.prototype = new Make();
 Model.prototype.setColor = function(color) {
   this.color = color;
-}
+};
 
 /*
     Create a new Make object - your favorite one (e.g. Mini)
@@ -73,22 +75,22 @@ console.log("honda", hondaCivic);
 
 var Corolla = function (color) {
   this.setManufacturer("Toyota");
-  this.setColor(color)
-}
+  this.setColor(color);
+};
 
-Corolla.prototype = new Model("Corolla")
+Corolla.prototype = new Model("Corolla");
 
 var redCar = new Corolla("red");
 // redCar.setManufacturer("Toyota")
 // redCar.setColor("red");
 
 var blueCar = new Model("Corolla");
-blueCar.setManufacturer("Toyota")
+blueCar.setManufacturer("Toyota");
 blueCar.setColor("blue");
 
 var greenCar = new Model("Corolla");
-greenCar.setManufacturer("Toyota")
-greenCar.setColor("green")
+greenCar.setManufacturer("Toyota");
+greenCar.setColor("green");
 
 console.log(redCar, blueCar, greenCar);
 
@@ -120,8 +122,3 @@ blackAztec.setManufacturer("Pontiac");
 blackAztec.setColor("black");
 
 console.log(redCivic, blueCRV, blackAztec);
-
-
-
-
-

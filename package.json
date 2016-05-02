@@ -1,26 +1,26 @@
 {
   "name": "cars",
   "version": "1.0.0",
-  "main": "manufactory.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morecallan/MJD-exercise-cars.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/morecallan/MJD-exercise-cars/issues"
+  },
+  "homepage": "https://github.com/morecallan/MJD-exercise-cars#readme",
   "dependencies": {
-    "browserify": "^13.0.0",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.0",
-    "gulp-sourcemaps": "^2.0.0-alpha",
-    "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",
-    "jquery": "^2.2.3",
     "jshint": "^2.9.2",
-    "jshint-stylish": "^2.1.0",
-    "lodash.assign": "^4.0.8",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.7.0"
+    "jshint-stylish": "^2.2.0"
   }
 }

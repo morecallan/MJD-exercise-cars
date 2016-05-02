@@ -1,14 +1,17 @@
 {
   "name": "cars",
+  "homepage": "https://github.com/morecallan/MJD-exercise-cars",
   "description": "",
   "main": "",
   "license": "MIT",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
 }
